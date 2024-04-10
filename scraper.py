@@ -16,6 +16,6 @@ def scraping(url):
             if ans.lower == 'ja' or ans.lower == 'yes': 
                 #save to file 
                 print('saving to file')
-            else : 
+            elif ans.lower == 'no' or ans.lower == 'nei' : 
                 print('Terminal output')
                 print(req.text)
