@@ -2,4 +2,5 @@
 import scraper as s
  #this is where we will test the web scraper
 print('awsome web scraper')
-s.scraping('http://www.nrk.no')
+input = (str(input('please write your url')))
+s.scraping(input)
