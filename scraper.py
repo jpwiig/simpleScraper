@@ -10,7 +10,7 @@ def scraping(url):
         req = requests.get(url)
 
         print(str(req))
-        if req.ok: #TODO: add possibility to scrape images and pdfs
+        if req.ok: #TODO: add possibility to scrape images and pdfs, later features
             print('scraping ok! Do you want to save it as a file')
             ans = str(input())
             if ans.lower == 'ja' or ans.lower == 'yes': 
