@@ -1,0 +1,6 @@
+--- to do list ---
+- able to scrape pictures []
+- support for special characters after it is scraped -> æøå []
+- scrape videos in a hundred percent legal way []
+- error handling for input -> potentially prompt to pick the right website[]
+-
